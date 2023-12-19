@@ -49,7 +49,7 @@ a
 
 .heroBackground{
     height: calc(100vh - 25px);
-    background-image: url(https://placehold.co/600x400); 
+    background-image: url("./images/herobg.png"); 
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
