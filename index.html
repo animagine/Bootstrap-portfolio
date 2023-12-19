@@ -45,16 +45,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Work</a>
+                <a class="nav-link " href="#work">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="#about">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Me</a>
+                <a class="nav-link" href="#contact">Contact Me</a>
               </li>
               
             </ul>
@@ -68,14 +68,14 @@
                 <div class="container-fluid py-5 jumboCopy">
                   <h1 class="display-5 fw-bold">Hello, Stranger!</h1>
                   <p class="col-md-12 fs-4">It is no stroke of luck that you have stumbled upon my page. You see, I am a visual storyeller of sorts. Allow me to show you some of the magic I make. </p>
-                  <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">View my Work</button>
+                  <a class="btn btn-primary" href="#work" role="button">View my Work</a>
                 </div>
               </div>
         </section>
         <!--Jumbotron/hero section ends here-->
 
         <!--Work section starts here-->
-        <section>
+        <section id="work">
             <div class="p-5 mb-4">
                 <div class="container-fluid px-5">
                     <h2 class="display-6">Recent Work</h2>
@@ -119,7 +119,7 @@
                             <div class="card-body">
                               <h5 class="card-title">Web Design</h5>
                               <p class="card-text">
-                                Responsive web design with bootstrap and wordpress.
+                                Responsive web design using bootstrap and wordpress for small businesses.
                               </p>
                             </div>
                           </div>
@@ -129,6 +129,36 @@
                 </div>
             </div>
         </section>
+         <!--skills section starts here-->
+
+         <section id="skills">
+            <div class="p-5 mb-4">
+                <div class="container-fluid px-5">
+                    <h2 class="display-6">Skills</h2>
+                    <hr>
+                    <!--skills items-->
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Digital illustration</div>
+                      </div>
+                      <br>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Web Design</div>
+                      </div>
+                      <br>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Graphic Design</div>
+                      </div>
+                      <br>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Mural Painting</div>
+                      </div>
+                      <br>
+                    </div>
+            
+            </div>
+        </section>
+
+        <!--skills section ends here-->
     </main>
     <!--Bootstrap JS and Popper.js-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
